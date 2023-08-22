@@ -14502,7 +14502,7 @@ section.u-image:not(.u-hover-box),
   top: 0;
   left: 0;
   bottom: 0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   border: 0;
 }
@@ -14527,11 +14527,20 @@ section.u-image:not(.u-hover-box),
 .u-icon-circle {
   border-radius: 50%;
 }
+.u-tiktok-icon img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 1.5px;
+ 
+}
 .u-file-icon img {
   object-fit: contain;
   width: 100%;
   height: 100%;
-  margin: 5px;
+  margin: 0px;
+  padding: 0px;
  
 }
 .u-back-to-top {
@@ -14620,7 +14629,7 @@ section.u-image:not(.u-hover-box),
 .pswp .embed-responsive,
 .u-video .embed-responsive {
   width: 100%;
-  height: 100%;
+  height: 75vh;
 }
 .u-video video {
   object-fit: cover;
@@ -17827,6 +17836,7 @@ section.u-opacity:before,
   bottom: 0;
   left: 0;
   right: 0;
+  height: 80vh;
   transition-duration: inherit;
   transition-property: opacity;
   border-radius: inherit;

@@ -229,23 +229,26 @@
   min-height: 249px;
 }
 
-.u-section-2 .u-container-layout-1 {
+.u-section-2 .u-container-layout-0 {
   padding: 30px 27px 25px;
 }
 
-.u-section-2 .u-icon-1 {
+.u-section-2 .u-icon-0 {
   height: 86px;
   width: 86px;
   margin: 0 auto 0 58px;
 }
 
-.u-section-2 .u-text-1 {
+.u-section-2 .u-text-0 {
   margin: 22px 2px 0;
 }
+.no-uppercase{
+  text-transform:none!important;}
 
-.u-section-2 .u-text-2 {
+.u-section-2 .u-text-20 {
   font-size: 1.5rem;
   font-weight: 700;
+  
   margin: 11px auto 0;
 }
 
@@ -826,9 +829,10 @@
   margin: 38px auto 0 calc(((100% - 1140px) / 2) + 55px);
 }
 
-.u-section-5 .u-text-1 {
+.u-section-5 .u-text-0 {
   font-weight: 400;
   font-size: 1.875rem;
+  text-transform: uppercase;
   margin: -260px 55px 0 calc(((100% - 1140px) / 2) + 927px);
 }
 
