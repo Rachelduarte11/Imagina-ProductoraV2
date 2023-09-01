@@ -17969,6 +17969,7 @@ section.u-opacity-70:before,
 .u-opacity-70 > .u-inner-container-layout:before,
 .u-opacity-70.u-sidenav:before {
   opacity: 0.7;
+  height: auto  ;
 }
 a.u-opacity-70,
 span.u-opacity-70,
@@ -43177,8 +43178,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    width: 243px;
-    height: 54px;
+    width: 200px;
+    height: 48px;
     margin-top: -43px;
   }
 }
